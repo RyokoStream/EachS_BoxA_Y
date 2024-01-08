@@ -13,7 +13,7 @@
 
         function rollUniformVirtualDice() {
             var min = 0;
-            var max = 1300;
+            var max = 1000;
             var uniformVirtualDiceResult = Math.floor(Math.random() * (max - min + 1)) + min;
             var subject = {
                 id: subjects.length + 1,
